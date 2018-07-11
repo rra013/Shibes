@@ -14,6 +14,8 @@
 		5B382B8C20F63C59008E7D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B382B8A20F63C59008E7D40 /* LaunchScreen.storyboard */; };
 		5B382B9720F63C59008E7D40 /* ShibesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B382B9620F63C59008E7D40 /* ShibesTests.swift */; };
 		5B382BA220F63C59008E7D40 /* ShibesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B382BA120F63C59008E7D40 /* ShibesUITests.swift */; };
+		5B382BB020F63EA5008E7D40 /* ShibeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B382BAF20F63EA5008E7D40 /* ShibeCollectionView.swift */; };
+		5B382BB220F648A0008E7D40 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B382BB120F6489F008E7D40 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		5B382B9D20F63C59008E7D40 /* ShibesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShibesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B382BA120F63C59008E7D40 /* ShibesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShibesUITests.swift; sourceTree = "<group>"; };
 		5B382BA320F63C59008E7D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B382BAF20F63EA5008E7D40 /* ShibeCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShibeCollectionView.swift; sourceTree = "<group>"; };
+		5B382BB120F6489F008E7D40 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				5B382B8820F63C59008E7D40 /* Assets.xcassets */,
 				5B382B8A20F63C59008E7D40 /* LaunchScreen.storyboard */,
 				5B382B8D20F63C59008E7D40 /* Info.plist */,
+				5B382BAF20F63EA5008E7D40 /* ShibeCollectionView.swift */,
+				5B382BB120F6489F008E7D40 /* SwiftyJSON.swift */,
 			);
 			path = Shibes;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B382B8420F63C58008E7D40 /* ViewController.swift in Sources */,
+				5B382BB020F63EA5008E7D40 /* ShibeCollectionView.swift in Sources */,
 				5B382B8220F63C58008E7D40 /* AppDelegate.swift in Sources */,
+				5B382BB220F648A0008E7D40 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
